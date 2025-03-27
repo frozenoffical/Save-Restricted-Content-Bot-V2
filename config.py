@@ -13,14 +13,14 @@ YTUB_COOKIES = """
 # write here yt cookies
 """
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "29568441"))
+API_HASH = getenv("API_HASH", "b32ec0fb66d22da6f77d355fbace4f2a")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
-MONGO_DB = getenv("MONGO_DB", "")
-LOG_GROUP = getenv("LOG_GROUP", "")
-CHANNEL_ID = int(getenv("CHANNEL_ID", ""))
-FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "0"))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5268762773").split()))
+MONGO_DB = getenv("MONGO_DB", "mongodb+srv://frozenbotss:frozenbots@cluster0.s0tak.mongodb.net/?retryWrites=true&w=majority")
+LOG_GROUP = getenv("LOG_GROUP", "-1002486532890")
+CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002056355467"))
+FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "10"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "500"))
 WEBSITE_URL = getenv("WEBSITE_URL", "upshrink.com")
 AD_API = getenv("AD_API", "52b4a2cf4687d81e7d3f8f2b7bc2943f618e78cb")
